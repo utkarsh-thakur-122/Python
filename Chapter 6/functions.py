@@ -77,7 +77,7 @@ def Converter():
     INR = 83
     convert = USD*INR
     #print("USD to INR",convert)
-    return convert              #Where the value is returned we don't require to print the Function or save the finction in another variable. We can Directly Right the Functions.
+    return convert              #Where the value is returned we don't require to print the Function or save the function in another variable. We can Directly Right the Functions.
 print("USD to INR: ",Converter())
 '''
 #Write a Function to check the number entered by user is even or odd
@@ -92,14 +92,21 @@ def Checker():
 print(Checker())
 '''
 
-def Factorial():
-    num = int(input("Enter the Number: "))
-    fact = 1
-    for i in range(1,num+1):
-        fact *= i
+# def Factorial():
+#     num = int(input("Enter the Number: "))
+#     fact = 1
+#     for i in range(1,num+1):
+#         fact *= i
         
-    return fact
+#     return fact
 
-print('Factorial of the number: ',Factorial())
-
+# print('Factorial of the number: ',Factorial())
+# def factorial(n):
+   
+#    fact = 1
+#    for i in range(1,n+1):
+#     fact *= i
+#     print("Factorial",fact)
+   
+# factorial(5)
 

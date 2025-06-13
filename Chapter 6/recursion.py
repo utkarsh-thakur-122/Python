@@ -42,10 +42,24 @@ print_list()
 '''
 
 
-def fun(list,index=0):
-    if(index==len(list)):
+# def fun(list,index=0):
+#     if(index==len(list)):
+#         return
+#     print(list[index])
+#     fun(list, index+1)
+
+# fun(list = ['Sundernagar','Mandi','Solan','Shimla','Jogindernagar'])
+
+
+
+# list = ['Sundernagar','Mandi','Solan','Shimla','Jogindernagar']
+# for i in list:
+#     print(i)
+
+list = ['Sundernagar','Mandi','Solan','Shimla','Utkarsh Nagar']
+def recursion(list,index=0):
+    if index == len(list):
         return
     print(list[index])
-    fun(list, index+1)
-
-fun(list = ['Sundernagar','Mandi','Solan','Shimla','Jogindernagar'])
+    recursion(list,index+1)
+recursion(list)

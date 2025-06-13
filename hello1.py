@@ -13,7 +13,7 @@ vowel = "aeiou"
 
 for letter in str:
     if letter in vowel:
-        print("Vowel is Found", letter)
+        print("Vowel is Found", letter,'at',str.index(letter))
         break
 else:
         print("Vowel Not Found")
